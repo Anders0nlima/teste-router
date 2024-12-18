@@ -1,17 +1,13 @@
 .img {
-    width: 60px; 
-    height: 60px; 
+    width: 100%; 
+    height: 100%; 
     border-radius: 50%; 
-    overflow: hidden; /* Garante que a imagem não ultrapasse o botão */
+    overflow: hidden; 
     display: flex;
     justify-content: center;
-   
+    object-fit: cover;
     align-items: center;
     transition: all 0.3s ease; 
-    background-color: #007bff;  /* Cor de fundo caso a imagem não carregue */
-
-    
-    
 }
 
 .img:hover {
@@ -25,5 +21,5 @@
 .imgContent {
     width: 100%; 
     height: 100%; 
-    object-fit: cover; /* Garante que a imagem ocupe todo o espaço de forma proporcional */
+    object-fit: cover; 
 }

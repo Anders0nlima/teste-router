@@ -1,5 +1,6 @@
 import Img from '../subComponents/Img'
 import styles from './Footer.module.css'
+import canada from '../componets/imagem/canada.png'; 
 
 
 function Footer(){
@@ -11,7 +12,8 @@ function Footer(){
                 <div className={styles.link}>
 
                    <div className={styles.botao}>
-                     <Img id="h1" imagem="/imagens/canada.png" to="/login" />
+                   <Img id="login" imagem={canada} to="/login" />
+                     
                    </div>
 
                    <div className={styles.descricao}>
@@ -23,7 +25,7 @@ function Footer(){
                 <div className={styles.link}>
 
                    <div className={styles.botao}>
-                     <Img id="guias" imagem="/imagens/h1.jpg" to="/login" />
+                     <Img id="guias" imagem="" to="/login" />
                    </div>
 
                    <div className={styles.descricao}>
