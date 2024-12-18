@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './Img.module.css'
 import { Link } from "react-router-dom";
-import canada from '../componets/imagem/canada.png'; 
 
 
 function Img({id, imagem, to}){

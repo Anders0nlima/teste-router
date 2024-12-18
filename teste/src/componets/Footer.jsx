@@ -1,6 +1,11 @@
 import Img from '../subComponents/Img'
 import styles from './Footer.module.css'
-import canada from '../componets/imagem/canada.png'; 
+import login from '../componets/imagem/login.jpeg'
+import blog from '../componets/imagem/blog.jpeg'
+import calendario from '../componets/imagem/calendario.jpeg'
+import gamifica from '../componets/imagem/gamificação.jpeg'
+import guide from '../componets/imagem/guia.jpeg'
+import mapa from '../componets/imagem/mapa.jpeg'
 
 
 function Footer(){
@@ -12,7 +17,7 @@ function Footer(){
                 <div className={styles.link}>
 
                    <div className={styles.botao}>
-                   <Img id="login" imagem={canada} to="/login" />
+                   <Img id="login" imagem={login} to="/login" />
                      
                    </div>
 
@@ -25,7 +30,7 @@ function Footer(){
                 <div className={styles.link}>
 
                    <div className={styles.botao}>
-                     <Img id="guias" imagem="" to="/login" />
+                     <Img id="game" imagem={gamifica} to="/game" />
                    </div>
 
                    <div className={styles.descricao}>
@@ -37,7 +42,7 @@ function Footer(){
                 <div className={styles.link}>
 
                    <div className={styles.botao}>
-                     <Img id="guias" imagem="/imagens/h1.jpg" to="/login" />
+                     <Img id="agenda" imagem={calendario} to="/agenda" />
                    </div>
 
                    <div className={styles.descricao}>
@@ -49,7 +54,7 @@ function Footer(){
                 <div className={styles.link}>
 
                    <div className={styles.botao}>
-                     <Img id="guias" imagem="/imagens/h1.jpg" to="/login" />
+                     <Img id="mapa" imagem={mapa} to="/mapa" />
                    </div>
 
                    <div className={styles.descricao}>
@@ -61,7 +66,7 @@ function Footer(){
                 <div className={styles.link}>
 
                    <div className={styles.botao}>
-                     <Img id="guias" imagem="/imagens/h1.jpg" to="/login" />
+                     <Img id="guide" imagem={guide} to="/guide" />
                    </div>
 
                    <div className={styles.descricao}>
@@ -73,7 +78,7 @@ function Footer(){
                 <div className={styles.link}>
 
                    <div className={styles.botao}>
-                     <Img id="guias" imagem="/imagens/h1.jpg" to="/login" />
+                     <Img id="blog" imagem={blog} to="/blog" />
                    </div>
 
                    <div className={styles.descricao}>
