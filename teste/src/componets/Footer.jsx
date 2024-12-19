@@ -1,11 +1,11 @@
 import Img from '../subComponents/Img'
 import styles from './Footer.module.css'
-import login from '../componets/imagem/login.jpeg'
-import blog from '../componets/imagem/blog.jpeg'
-import calendario from '../componets/imagem/calendario.jpeg'
-import gamifica from '../componets/imagem/gamificação.jpeg'
-import guide from '../componets/imagem/guia.jpeg'
-import mapa from '../componets/imagem/mapa.jpeg'
+import login from '../componets/imagem/login2.jpeg'
+import blog from '../componets/imagem/blog2.jpeg'
+import calendario from '../componets/imagem/calendario2.jpeg'
+import gamifica from '../componets/imagem/gamificação2.jpeg'
+import guide from '../componets/imagem/guia2.jpeg'
+import mapa from '../componets/imagem/mapa2.jpeg'
 
 
 function Footer(){

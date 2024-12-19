@@ -1,0 +1,52 @@
+.img{
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 65%;
+    width: 100%;
+    box-shadow: 1px 5px 15px 8px rgba(0, 0, 0, 0.438);
+    position: absolute;
+    top: 10;
+    left: 0;
+    object-fit: cover;
+}
+
+.banner{
+    width: 1200px;
+    height: 65vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 5px 15px 8px rgba(0, 0, 0, 0.897)
+}
+
+
+
+
+.banner .content{
+    position: relative;
+    z-index: 1;
+    max-width: 500px;
+    padding-top: 200px;
+}
+
+
+.banner .content h1{
+    text-shadow: 2px 4px 10px black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 5em;
+    text-transform: uppercase;
+    color: #ffff;
+}
+
+
+.banner .content p{
+    text-align: center; 
+    text-shadow: 2px 4px 10px rgb(0, 0, 0);
+    font-size: 1.7em;
+    color: #ffffff;
+}
