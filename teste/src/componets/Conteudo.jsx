@@ -1,6 +1,6 @@
 import Banner from '../subComponents/Banner'
 import styles from './Conteudo.module.css'
-import imagemPrinciapal from './imagem/imagempPrincipal.jpeg'
+import imagemPrinciapal from './imagem/imagemPrincipal.jpeg'
 
 
 function Conteudo(){
