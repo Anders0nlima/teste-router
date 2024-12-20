@@ -1,18 +1,27 @@
 
 import { Link } from 'react-router-dom'
 import styles from './NavBar.module.css'
+import Logo from '../subComponents/Logo'
+import logo from '../componets/imagem/logo3.jpeg'
 
 function NavBar(){
     return(
         <div className={styles.list}>
+           <Logo id="logo" imagem={logo} to="/teste-router"  className={styles.logo}/>
 
-          <Link className={styles.item} to="/teste-router">HomePage</Link>
+           <div className={styles.centerLinks}>
+           <Link className={styles.item} to="/#">Login</Link>
+           <Link className={styles.item} to="/teste-router">Feedback</Link>
+           <Link className={styles.item} to="/registrar">Suporte</Link>
+           <Link  className={styles.item} to="/login">Idioma</Link>
+           </div>
 
-          <Link className={styles.item} to="/registrar">RegisterPage</Link>
 
-          <Link  className={styles.item} to="/login">LoginPage</Link>
-
-          <Link className={styles.item} to='/detalhes'>GuideDetails</Link>
+           <div className={styles.rightLinks}>
+           <Link className={styles.item} to='/detalhes'>Sobre</Link>
+           <Link className={styles.item} to='/detalhes'>API</Link>
+           </div>
+          
 
         </div> 
     )

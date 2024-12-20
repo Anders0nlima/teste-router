@@ -22,7 +22,7 @@ function Footer(){
                    </div>
 
                    <div className={styles.descricao}>
-                     <p>Login</p>
+                     <p><strong>Login</strong></p>
                   </div>
 
                 </div>
@@ -34,7 +34,7 @@ function Footer(){
                    </div>
 
                    <div className={styles.descricao}>
-                     <p>Gamificação</p>
+                     <p><strong>Gamificação</strong></p>
                   </div>
 
                 </div>
@@ -46,7 +46,7 @@ function Footer(){
                    </div>
 
                    <div className={styles.descricao}>
-                     <p>Agenda</p>
+                     <p><strong>Agenda</strong></p>
                   </div>
 
                 </div>
@@ -58,7 +58,7 @@ function Footer(){
                    </div>
 
                    <div className={styles.descricao}>
-                     <p>Mapa</p>
+                     <p><strong>Mapa</strong></p>
                   </div>
 
                 </div>
@@ -70,7 +70,7 @@ function Footer(){
                    </div>
 
                    <div className={styles.descricao}>
-                     <p>Torne-se Guia</p>
+                     <p><strong>Torne-se Guia</strong></p>
                   </div>
 
                 </div>
@@ -82,7 +82,7 @@ function Footer(){
                    </div>
 
                    <div className={styles.descricao}>
-                     <p>Blogs</p>
+                     <p><strong>Blogs</strong></p>
                   </div>
 
                 </div>

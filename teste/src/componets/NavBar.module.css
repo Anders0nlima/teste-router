@@ -1,8 +1,7 @@
 .list{
     display: flex;
-    background-color: rgb(0, 0, 0);
-    padding: 20px;
-    justify-content: space-between;
+    background-color: #35c0c8;
+    padding: 15px;
 }
 
 .item {
@@ -23,11 +22,26 @@
 }
 
 
-.logo{
-  background-color: white;
-  width: 150px;
+.logo {
+  flex: 1; 
+  display: flex;
+  justify-content: flex-start;
 }
 
-.logoGeral{
-  margin-right: 120px;
+
+.centerLinks {
+  flex: 1; 
+  display: flex;
+  justify-content: center;
+  gap: 50px; 
 }
+
+
+.rightLinks {
+  flex: 1; 
+  display: flex;
+  justify-content: flex-end; 
+  gap: 50px; 
+}
+
+
